@@ -1,6 +1,6 @@
 ## infodemia
 *progetto infodemia per*  
-_ **IlSole24Lab** _  
+_**IlSole24Lab**_  
   
 **Docente:** Matteo Moretti  
 **Studenti:** Fabrizio De Donatis, Maria Gabriella Milinci, Barbara Sabato  
