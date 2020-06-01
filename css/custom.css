@@ -1,0 +1,508 @@
+@font-face {
+    font-family: 'Sole24Sans-LightExtended';
+    src: url('fonts/Sole24Sans-LightExtended.woff2') format('woff2'),
+        url('fonts/Sole24Sans-LightExtended.woff') format('woff'),
+        url('fonts/Sole24Sans-LightExtended.eot') format('eot'),
+        url('fonts/Sole24Sans-LightExtended.ttf') format('ttf');
+    
+}
+
+@font-face {
+    font-family: 'Sole24Sans-Regular';
+    src: url('fonts/Sole24Sans-Regular.woff2') format('woff2'),
+        url('fonts/Sole24Sans-Regular.woff') format('woff'),
+        url('fonts/Sole24Sans-Regular.eot') format('eot'),
+        url('fonts/Sole24Sans-Regular.ttf') format('ttf');
+    
+}
+@font-face {
+    font-family: 'Sole24Sans-Medium';
+    src: url('fonts/Sole24Sans-Medium.woff2') format('woff2'),
+        url('fonts/Sole24Sans-Medium.woff') format('woff');   
+}
+
+@font-face {
+    font-family: 'Sole24SerifBigDisplay-Medium';
+    src: url('fonts/Sole24SerifBigDisplay-Medium.woff2') format('woff2'),
+        url('fonts/Sole24SerifBigDisplay-Medium.woff') format('woff'),
+        url('fonts/Sole24SerifBigDisplay-Medium.eot') format('eot'),
+        url('fonts/Sole24SerifBigDisplay-Medium.ttf') format('ttf');
+    
+}
+
+@font-face {
+    font-family: 'Sole24SerifText-Bold';
+    src: url('fonts/Sole24SerifText-Bold.woff2') format('woff2'),
+        url('fonts/Sole24SerifText-Bold.woff') format('woff'),
+        url('fonts/Sole24SerifText-Bold.eot') format('eot'),
+        url('fonts/Sole24SerifText-Bold.ttf') format('ttf');
+    
+}
+
+@font-face {
+    font-family: 'Sole24SerifText-Medium';
+    src: url('fonts/Sole24SerifText-Medium.woff2') format('woff2'),
+        url('fonts/Sole24SerifText-Medium.woff') format('woff'),
+        url('fonts/Sole24SerifText-Medium.eot') format('eot'),
+        url('fonts/Sole24SerifText-Medium.ttf') format('ttf');
+   
+}
+
+@font-face {
+    font-family: 'Sole24SerifText-RegularIt';
+    src: url('fonts/Sole24SerifText-RegularIt.woff2') format('woff2'),
+        url('fonts/Sole24SerifText-RegularIt.woff') format('woff'),
+        url('fonts/Sole24SerifText-RegularIt.eot') format('eot'),
+        url('fonts/Sole24SerifText-RegularIt.ttf') format('ttf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sole24SerifText-Regular';
+    src:url('fonts/Sole24SerifText-Regular.ttf') format('ttf'),
+        url('fonts/Sole24SerifText-Regular.eot') format('eot'),
+        url('fonts/Sole24SerifText-Regular.woff2') format('woff2'),
+        url('fonts/Sole24SerifText-Regular.woff') format('woff');
+      font-style: normal;
+    
+}
+
+
+
+html { font-size: 12px;
+overflow-x: hidden;
+scroll-behavior: smooth;
+}
+
+body {
+     margin: 0;
+     background-color: #ECF1F4;   /* #ECF1F4; */
+     font-family: 'Sole24SerifText-Regular';
+}
+p {
+ font-size: 16px;
+line-height: 24px;
+}
+ /* @media (min-width: 550px) {  .row { margin-right: 15%;
+                                    margin-left: 15%;}  } */
+
+/*Prima Pagina*/
+#particles-js{
+ position: absolute;
+ z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-color:transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;  
+}
+#intestazione {
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: #EAD6BB;
+    z-index: 1;
+}
+
+#box_1 {
+    text-align: center;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+        #box_1 h2{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 600;
+        }
+        
+/*Seconda Pagina*/
+#box_2 {
+    text-align: left;
+    height: 60vh;
+}
+#box_2 h5{ font-weight: 600; }
+#citazione{
+    font-style: italic;
+    font-size: 0.95em;
+  }
+ /*Terza Pagina*/
+ #box_3 {
+         text-align: left;
+          height: 100vh;
+          margin-top: 10%;
+    }
+.titolo_h3 { font-family: 'Sole24SerifText-Bold';
+             font-weight: 600;
+             font-size: 30px;
+      }
+  #ascolti-tv-desktop svg {
+            position: relative;
+            top: 35%;
+            transform: translateY(-50%);
+        }
+.legenda {
+  font-family:'Sole24Sans-Medium';
+  font-size:16px;
+ }
+ .variabili {
+  opacity: 0.7;
+  fill:#989898;
+  font-family:'Sole24Sans-Regular';
+  font-size:12px;
+ }
+ .fonte {
+  opacity: 0.7;
+  fill:#989898;
+  font-family:'Sole24Sans-Regular';
+  font-size:12px;
+ }
+ .linea {
+  opacity:0.15;
+  fill:none;
+  stroke:#1D1E1C;
+  stroke-width:0.25;
+  stroke-miterlimit:10;
+ }
+  #ascolti-tv-mobile svg{
+            display: none;
+            position: relative;
+            margin-top: 30%;
+            transform: translateY(-50%);
+   }
+ /*Quarta Pagina*/
+#box_4{
+    text-align: left;
+    height: 100vh;
+}
+/*Quinta Pagina*/
+#box_5{
+			text-align: left;
+			height: 100vh;
+		}
+ /*Sesta Pagina*/
+   #box_6 {   text-align: center;
+			 height: 3150vh;
+  }
+  #contenitore_grafico {
+									position: relative;
+									height:80vh;
+									width: 100%;
+		}
+	/* menu grafico */
+		.menu_grafico{
+																position: relative;
+																height: 12vh;
+																width: 100%;
+														  font-size: 1.2rem;
+																font-family: 'Sole24Sans-Regular';
+		}
+		 
+			.testo_vr_sx{
+																position: absolute;
+																top:0;
+																left: 0;
+																color: #6699FF;
+																text-align: left;																
+																writing-mode: vertical-rl;
+				}
+				
+				.testo_centro_dx{
+																					position: absolute;
+																					top:10%;
+																					right:15%;
+																					width:20%;
+																					text-align: right;
+				}
+				.testo_centro_sx{
+																					position: absolute;
+																					top:10%;
+																					left:15%;
+																					width:20%;
+																					text-align: left;
+				}
+				
+		.testo_vr_dx {position: absolute;
+																text-align: left;
+																
+																right: 0;
+																top:0;
+																writing-mode: vertical-rl;
+																
+				}
+				.testo_vr_dx ul{list-style:none;
+																					padding-top: 0;
+															     	margin-right: 0;}
+				
+				.T{color:#3C2FE9;  }
+				.M{color:#3DCFD6; }
+				.S{color:#C43EC8; }
+				
+		/* menu grafico ---- end */
+		
+		
+		#contenitore_grafico {
+									
+									position: relative;
+									height:80vh;
+									width: 100%;
+		
+		}
+		
+		 #linee{
+				position: absolute;
+    left: 0;
+    height: inherit;
+			width: inherit;
+    /*z-index: -1;*/
+			}
+			
+#24_gennaio,#26_gennaio,#27_gennaio,#29_gennaio,#31_gennaio,#03_febbraio,#24_febbraio,
+		#02_marzo,#07_marzo,#09_marzo,#10_marzo,#16_marzo,#28_marzo,#30_marzo,#06_aprile,#13_aprile
+																				{
+																					
+																				}
+		 #news_pubblicate {
+										position: absolute;
+										left:0;
+										height: inherit;
+										overflow:visible;
+		}
+		
+		#trenitalia, #mascherine, #supermercati {
+										position: absolute;
+										right:0;
+										height: inherit;
+										overflow:visible;
+		}
+		
+		/* PANEL SCROLLMAGIC*/
+				.panel {
+												height: 100vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+												
+				}
+				
+				.panel2 {
+												height: 60vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+												
+				}
+				.caption {
+            margin: auto;
+            width: 60vw;
+												max-width: 300px;
+            height: 90vh;
+												}
+        
+        .data, .parola { color:red;}
+        .numero {color:blue;}
+		
+			#trf_mascherine {
+																										
+												background-color: #ECF1F4;
+											 margin: auto;
+            width: 70vw;
+												max-width: 300px;
+            height: auto;
+			}
+			
+			.anim_mascherine{
+				
+									position: relative;
+									width:100%;
+									height: 100%
+			}
+		.anim_mascherine img{
+																										
+											 width: 60vw;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            opacity: 0;
+												
+			}
+			
+			.anim_treni{
+				
+									position: relative;
+									width:100%;
+									height: 100%
+			}
+		.anim_treni img{
+																										
+											 width: 60vw;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            opacity: 0;
+												
+			}
+			
+			.anim_supermercati{
+				
+									position: relative;
+									width:100%;
+									height: 100%
+			}
+		.anim_supermercati img{
+																										
+											 width: 60vw;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            opacity: 0;
+												
+			}
+		
+		
+	/* PANEL SCROLLMAGIC --- fine ----*/	
+ 
+  /*Settima Pagina*/
+  		#box_7{
+    height: 90vh;
+			text-align: left;
+  /* background-color: coral;*/
+		}
+    #box_7 h6, #box_8 h6, #box_9 h6{
+            padding-top: 10vh;
+            position: relative;
+            font-weight: 600;
+             }
+        #igienizzanti-desktop {
+           top: 50%;
+            position: relative;
+            transform: translateY(-50%);
+        }
+ 
+   /*Ottava Pagina*/
+ #box_8{ text-align: left;
+			height: 100vh;
+	}
+ /*Nona Pagina*/
+#box_9 {
+    text-align: left;
+    height: 100vh;
+}
+ /*Decima Pagina*/
+
+#box_10 {  text-align: left;
+          height: 100vh;  
+       
+}
+
+/*- BOLLE DESKTOP-------------------------------*/
+#bolle-twitter-desktop svg {
+            display: inherit;
+            position: relative;
+            margin-top: 15%;
+            transform: translateY(-50%);
+           /*    width:100% */        
+}
+
+#bolle-twitter-desktop svg circle {
+            z-index: -1;
+}
+
+#bolle-twitter-desktop text {
+            z-index: 0;
+            
+}
+
+/*- GRAFICO TWITTER DESKTOP----------------------*/
+#grafico_twitter_desktop svg {
+            position: relative;
+            margin-top: 10%;
+            transform: translateY(-50%);
+            width:100%
+            
+}
+
+/*- GRAFICO TWITTER MOBILE (da sistemare)-------*/
+#grafico-twitter-mobile svg {
+            display: none;
+            position: relative;
+            top: 20%;
+            transform: translateY(-50%); 
+}
+
+/*----------------------------------------------------------------------------------------BOX 12----------*/
+  
+                    
+                    
+/*--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------*/
+
+
+/*--- PARTE PER MOBILE------------( da sistemare )-------------------*/
+
+
+
+/*Undicesima Pagina-----BUBBLE CSS A PARTE */
+#box_11 {
+            padding-top: 30vh;
+            position: relative;
+            text-align: center;
+            height: 100vh;
+            
+                    }   
+
+
+/*Dodicesima Pagina*/
+
+    #box_12  h2{ 
+            font-weight: 600;
+    }
+    #box_12 {
+            padding-top: 30vh;
+            position: relative;
+            text-align: center;
+            height: 100vh;
+            
+                    }             
+                    
+                    
+    /* Larger than mobile */
+@media (max-width: 400px) {
+ #box_3 {margin-top: 45%;}
+ .legenda {
+  font-family:'Sole24Sans-Medium';
+  font-size:14px;
+ }
+ .variabili {font-size: 10px;}
+ .fonte {font-size: 10px;}
+ #ascolti-tv-mobile svg {display: inherit;}
+ #ascolti-tv-desktop svg {display: none;}
+ #igienizzanti-desktop svg {display: none;}
+ #igienizzanti-mobile {display: inherit;}
+ #box_10 {margin-top: 45%;}  
+ #grafico-twitter-mobile svg {display: inherit;}
+ #grafico-twitter-desktop svg {display: none;}
+}
+
+@media (max-width: 650px) {	
+.menu_grafico{	font-size: 0.7rem;
+		}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
