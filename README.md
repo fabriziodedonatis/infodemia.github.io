@@ -1,4 +1,4 @@
-## infodemia
+## Infodemia
 *progetto infodemia per*  
 _**IlSole24Lab**_  
   
