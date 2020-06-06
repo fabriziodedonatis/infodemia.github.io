@@ -70,7 +70,7 @@ $(document).ready(function() { // wait for document ready
 					$( "#cerchio" ).attr("opacity", 0);
 					})
 				.addTo(controller);
-				//pincopallino
+				
             
            /*  new ScrollMagic.Scene({ triggerElement: "#caption-5", offset: "0",	duration: "150%"	})
 				.setPin("#caption-5", {	pushFollowers: false})
@@ -98,7 +98,7 @@ $(document).ready(function() { // wait for document ready
 				.addTo(controller);
 				
 			//trafiletto------------------------
-				new ScrollMagic.Scene({ triggerElement: "#caption-5-1",triggerHook: 0.5, offset: "100",	duration: "30%"	})
+				new ScrollMagic.Scene({ triggerElement: "#caption-5-1",triggerHook: 0.5, offset: "100",	duration: "50%"	})
 				.setPin("#caption-5-1", {	pushFollowers: true})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
@@ -109,21 +109,25 @@ $(document).ready(function() { // wait for document ready
 				
 			//immagini-----------------------
 			
-				new ScrollMagic.Scene({ triggerElement: "#caption-5-2",triggerHook: 0.5, offset: "200",	duration: "40%"	})
+				new ScrollMagic.Scene({ triggerElement: "#caption-5-2",triggerHook: 0.1, offset: "0",	duration: "40%"	})
 				.setPin("#caption-5-2", {	pushFollowers: true})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
+					maxX=$(".anim_mascherine").width();
+					minX=$(".anim_mascherine").width()/10;
+					maxY=$(".anim_mascherine").height();
+					minY=$(".anim_mascherine").height()/12;
 					
 					i = 0;
 					$(".anim_mascherine img").each(function() {
-					    rndX = Math.random() * $(".anim_mascherine").width()/2 - 30 ;
-					    rndY = Math.random() * $(".anim_mascherine").height()/3 + 60 ;
+					    rndX = Math.random() * (maxX/3 - minX)+ minX;
+					    rndY = Math.random() * (maxY/2 - minY)+ minY;
 					    $(this).css("left", rndX + "px");
 					    $(this).css("top", rndY + "px");
 					    $(this).css("z-index", 10);
-					    $(this).delay(600 * i).animate({
+					    $(this).delay(650 * i).animate({
 						opacity: 1,
-					    }, 1000).fadeIn(1500);
+					    }, 800).fadeIn(1500);
 					    i++;
 					});                    
 				})
@@ -198,6 +202,9 @@ $(document).ready(function() { // wait for document ready
 					$("#07_marzo").attr("opacity", opacit2);
 					
 				})
+				.on("leave", function(e) {
+					$( "#cerchio" ).attr("opacity", 0);
+					})
 				.addTo(controller);
             
          /*   new ScrollMagic.Scene({ triggerElement: "#caption-10", offset: "0",	duration: "50%"	})
@@ -271,9 +278,12 @@ $(document).ready(function() { // wait for document ready
 				.setPin("#caption-11", {	pushFollowers: true	})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
-					 $( "#cerchio" ).attr( "cx", 59.141 ).attr( "cy", 347.729);
+					 $( "#cerchio" ).attr( "cx", 59.141 ).attr( "cy", 347.729).attr("opacity",1);
 					 $("#09_marzo").attr("opacity", opacit);
 				})
+				.on("leave", function(e) {
+					$( "#cerchio" ).attr("opacity", 0);
+					})
 				.addTo(controller);
             
        /*     new ScrollMagic.Scene({ triggerElement: "#caption-12", offset: "0",	duration: "50%"	})
@@ -347,7 +357,7 @@ $(document).ready(function() { // wait for document ready
 				.setPin("#caption-13", {	pushFollowers: true	})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
-					$( "#cerchio" ).attr( "cx", 39.814 ).attr( "cy", 401.807);
+					$( "#cerchio" ).attr( "cx", 39.814 ).attr( "cy", 401.807).attr("opacity",1);
 					$("#16_marzo").attr("opacity", opacit);
 				})
 				.addTo(controller);
