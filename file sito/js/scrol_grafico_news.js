@@ -70,6 +70,7 @@ $(document).ready(function() { // wait for document ready
 					$( "#cerchio" ).attr("opacity", 0);
 					})
 				.addTo(controller);
+				//pincopallino
             
            /*  new ScrollMagic.Scene({ triggerElement: "#caption-5", offset: "0",	duration: "150%"	})
 				.setPin("#caption-5", {	pushFollowers: false})
