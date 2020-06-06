@@ -397,7 +397,7 @@ line-height: 24px;
  /*Decima Pagina*/
 
 #box_10 {  text-align: left;
-          height: 100vh;  
+          height: 100vh;
        
 }
 
@@ -449,13 +449,14 @@ line-height: 24px;
 
 
 /*Undicesima Pagina-----BUBBLE CSS A PARTE */
-#box_11 {
-            padding-top: 30vh;
+#box_bubble {
+        
             position: relative;
             text-align: center;
             height: 100vh;
+            width: 100%;
             
-                    }   
+        }   
 
 
 /*Dodicesima Pagina*/
@@ -464,12 +465,10 @@ line-height: 24px;
             font-weight: 600;
     }
     #box_12 {
-            padding-top: 30vh;
             position: relative;
             text-align: center;
             height: 100vh;
-            
-                    }             
+            }             
                     
                     
     /* Larger than mobile */

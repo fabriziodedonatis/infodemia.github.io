@@ -1,14 +1,13 @@
-#fake{
-            background-color: coral;
-            width: 100%;
-            height: 200vh;
-        }
+        box_bubble{
+			width: 100%;
+            height: 100vh;
+		}
         .bubbles{
             width: 100%;
             height: 100vh;
             overflow: hidden;
         }
-        .bubbles .bg {
+        .bubbles.bg {
             opacity: 1;
              background-color: #1e1e24;
              transition: all 2s ease-in-out;
@@ -44,6 +43,21 @@
 		#frase-finale p {
             color: #ecf1f4;
         }
+		#frase-finale {
+        text-align: center;
+		-webkit-transform: scale(0.9);
+			 -moz-transform: scale(0.9);
+				-ms-transform: scale(0.9);
+				 -o-transform: scale(0.9);
+						transform: scale(0.9);
+		opacity: 0;
+		-webkit-transition: all 1s ease-in-out;
+			 -moz-transition: all 1s ease-in-out;
+				-ms-transition: all 1s ease-in-out;
+				 -o-transition: all 1s ease-in-out;
+						transition: all 1s ease-in-out;
+						
+	}
         #frase-finale {
 			
         text-align: center;
@@ -68,3 +82,5 @@
 				 -o-transform: none;
 						transform: none;
 	}
+	
+	
