@@ -66,6 +66,9 @@ $(document).ready(function() { // wait for document ready
 					$( "#cerchio" ).attr( "cx", 6.491 ).attr( "cy", 38.712);
 					$("#29_gennaio").attr("opacity", opacit2);
 				})
+				.on("leave", function(e) {
+					$( "#cerchio" ).attr("opacity", 0);
+					})
 				.addTo(controller);
             
            /*  new ScrollMagic.Scene({ triggerElement: "#caption-5", offset: "0",	duration: "150%"	})
@@ -160,7 +163,7 @@ $(document).ready(function() { // wait for document ready
 				.setPin("#caption-6", {	pushFollowers: true	})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
-					$( "#cerchio" ).attr( "cx", 5.824 ).attr( "cy", 77.339);
+					$( "#cerchio" ).attr( "cx", 5.824 ).attr( "cy", 77.339).attr("opacity", 1);
 					$("#03_febbraio").attr("opacity", opacit);
 				})
 				.addTo(controller);
