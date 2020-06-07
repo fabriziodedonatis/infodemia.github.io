@@ -16,7 +16,7 @@ $(document).ready(function() { // wait for document ready
 					triggerElement: "#contenitore_grafico",
 					offset: "-30",
 					triggerHook: 'onLeave',
-					duration: "3050%"
+					duration: "3150%"
 				})
 				.setPin("#contenitore_grafico", {
 					pushFollowers: false
@@ -84,7 +84,7 @@ $(document).ready(function() { // wait for document ready
 					triggerElement: "#caption-5",
 					offset: "50vh",
 					triggerHook: 0.5,
-					duration: "250%"
+					duration: "280%"
 				})
 				.setPin("#caption-5", {
 					pushFollowers: false
@@ -109,7 +109,7 @@ $(document).ready(function() { // wait for document ready
 				
 			//immagini-----------------------
 			
-				new ScrollMagic.Scene({ triggerElement: "#caption-5-2",triggerHook: 0.1, offset: "0",	duration: "40%"	})
+				new ScrollMagic.Scene({ triggerElement: "#caption-5-2",triggerHook: 0.1, offset: "0",	duration: "50%"	})
 				.setPin("#caption-5-2", {	pushFollowers: true})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
@@ -220,7 +220,7 @@ $(document).ready(function() { // wait for document ready
 					triggerElement: "#caption-10",
 					offset: "50vh",
 					triggerHook: 0.5,
-					duration: "250%"
+					duration: "280%"
 				})
 				.setPin("#caption-10", {
 					pushFollowers: false
@@ -232,7 +232,7 @@ $(document).ready(function() { // wait for document ready
 				.addTo(controller);
 				
 				//trafiletto------------------------
-				new ScrollMagic.Scene({ triggerElement: "#caption-10-1",triggerHook: 0.5, offset: "100",	duration: "30%"	})
+				new ScrollMagic.Scene({ triggerElement: "#caption-10-1",triggerHook: 0.5, offset: "100",	duration: "50%"	})
 				.setPin("#caption-10-1", {	pushFollowers: true})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
@@ -244,7 +244,7 @@ $(document).ready(function() { // wait for document ready
 				
 			//immagini-----------------------
 			
-				new ScrollMagic.Scene({ triggerElement: "#caption-10-2",triggerHook: 0.5, offset: "200",	duration: "40%"	})
+				new ScrollMagic.Scene({ triggerElement: "#caption-10-2",triggerHook: 0.1, offset: "0",	duration: "50%"	})
 				.setPin("#caption-10-2", {	pushFollowers: true})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
@@ -301,7 +301,7 @@ $(document).ready(function() { // wait for document ready
 					triggerElement: "#caption-12",
 					offset: "50vh",
 					triggerHook: 0.5,
-					duration: "250%"
+					duration: "280%"
 				})
 				.setPin("#caption-12", {
 					pushFollowers: false
@@ -317,7 +317,7 @@ $(document).ready(function() { // wait for document ready
 				
 				
 			//trafiletto------------------------
-				new ScrollMagic.Scene({ triggerElement: "#caption-12-1",triggerHook: 0.5, offset: "100",	duration: "30%"	})
+				new ScrollMagic.Scene({ triggerElement: "#caption-12-1",triggerHook: 0.5, offset: "100",	duration: "50%"	})
 				.setPin("#caption-12-1", {	pushFollowers: true})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
@@ -328,7 +328,7 @@ $(document).ready(function() { // wait for document ready
 				
 			//immagini-----------------------
 			
-				new ScrollMagic.Scene({ triggerElement: "#caption-12-2",triggerHook: 0.5, offset: "200", duration: "40%"	})
+				new ScrollMagic.Scene({ triggerElement: "#caption-12-2",triggerHook: 0.1, offset: "0", duration: "50%"	})
 				.setPin("#caption-12-2", {pushFollowers: true})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {

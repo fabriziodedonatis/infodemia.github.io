@@ -27,6 +27,7 @@ $(document).ready(function() { // wait for document ready
             new ScrollMagic.Scene({
                     triggerElement: "#box_3 ",
                     triggerHook: 'onLeave',
+                    offset: "-30",
                     duration: "100%"
                 })
                 .setPin("#box_3 ", {

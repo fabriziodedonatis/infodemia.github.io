@@ -190,7 +190,7 @@ line-height: 24px;
 		}
  /*Sesta Pagina*/
    #box_6 {   text-align: center;
-			 height: 3150vh;
+			 height: 3250vh;
   }
   #contenitore_grafico {
 									position: relative;
@@ -202,7 +202,7 @@ line-height: 24px;
 																position: relative;
 																height: 12vh;
 																width: 100%;
-														  font-size: 1.2rem;
+														  font-size: 0.95rem;
 																font-family: 'Sole24Sans-Regular';
 		}
 		 
@@ -493,7 +493,7 @@ line-height: 24px;
 }
 
 @media (max-width: 650px) {	
-.menu_grafico{	font-size: 0.7rem;
+.menu_grafico{	font-size: 0.6rem;
 		}
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
