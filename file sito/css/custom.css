@@ -310,12 +310,12 @@ line-height: 24px;
         .data, .parola { color:red;}
         .numero {color:blue;}
 		
-			#trf_mascherine {
+			#trf_mascherine, #trf_treni, #trf_supermercati {
 																										
 												background-color: #ECF1F4;
 											 margin: auto;
-            width: 70vw;
-												max-width: 300px;
+            width: 60vw;
+												max-width: 400px;
             height: auto;
 			}
 			
@@ -335,6 +335,7 @@ line-height: 24px;
 												
 			}
 			
+   
 			.anim_treni{
 				
 									position: relative;
@@ -343,7 +344,7 @@ line-height: 24px;
 			}
 		.anim_treni img{
 																										
-											 width: 60vw;
+											 width: 40vw;
             position: absolute;
             top: 0px;
             left: 0px;
@@ -359,7 +360,7 @@ line-height: 24px;
 			}
 		.anim_supermercati img{
 																										
-											 width: 60vw;
+											 width: 40vw;
             position: absolute;
             top: 0px;
             left: 0px;

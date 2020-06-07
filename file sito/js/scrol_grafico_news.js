@@ -248,17 +248,20 @@ $(document).ready(function() { // wait for document ready
 				.setPin("#caption-10-2", {	pushFollowers: true})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
-					
+					maxX=$(".anim_treni").width();
+					minX=$(".anim_treni").width()/10;
+					maxY=$(".anim_treni").height();
+					minY=$(".anim_treni").height()/12;
 					i = 0;
 					$(".anim_treni img").each(function() {
-					    rndX = Math.random() * $(".anim_treni").width()/2 - 30 ;
-					    rndY = Math.random() * $(".anim_treni").height()/3 + 60 ;
+					    rndX = Math.random() * (maxX/3 - minX)+ minX;
+					    rndY = Math.random() * (maxY/2 - minY)+ minY;
 					    $(this).css("left", rndX + "px");
 					    $(this).css("top", rndY + "px");
 					    $(this).css("z-index", 10);
-					    $(this).delay(600 * i).animate({
+					    $(this).delay(650 * i).animate({
 						opacity: 1,
-					    }, 1000).fadeIn(1500);
+					    }, 800).fadeIn(1000);
 					    i++;
 					});                    
 				})
@@ -329,11 +332,14 @@ $(document).ready(function() { // wait for document ready
 				.setPin("#caption-12-2", {pushFollowers: true})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
-					
+					maxX=$(".anim_supermercati").width();
+					minX=$(".anim_supermercati").width()/10;
+					maxY=$(".anim_supermercati").height();
+					minY=$(".anim_supermercati").height()/12;
 					i = 0;
 					$(".anim_supermercati img").each(function() {
-					    rndX = Math.random() * $(".anim_supermercati").width()/2 - 30 ;
-					    rndY = Math.random() * $(".anim_supermercati").height()/3 + 60 ;
+					    rndX = Math.random() * (maxX/3 - minX)+ minX;
+					    rndY = Math.random() * (maxY/2 - minY)+ minY;
 					    $(this).css("left", rndX + "px");
 					    $(this).css("top", rndY + "px");
 					    $(this).css("z-index", 10);
