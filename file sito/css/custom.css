@@ -137,7 +137,7 @@ line-height: 24px;
  /*Terza Pagina*/
  #box_3 {
          text-align: left;
-          height: 120vh;     
+          height: 120vh;
     }
     .panel3 {
 												height: 100vh;
@@ -177,8 +177,9 @@ line-height: 24px;
    }
  /*Quarta Pagina*/
 #box_4{
+    padding-top: 5vh;
     text-align: left;
-    height: 50vh;
+    height: 60vh;
 }
 /*Quinta Pagina*/
 #box_5{
