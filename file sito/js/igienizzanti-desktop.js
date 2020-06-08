@@ -1,4 +1,5 @@
 $(document).ready(function() { // wait for document ready
+        
             //funzione per calcolare dash lunga come il tracciato
             function pathPrepare($el) {
                 var lineLength = $el[0].getTotalLength();

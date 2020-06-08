@@ -127,7 +127,7 @@ line-height: 24px;
 /*Seconda Pagina*/
 #box_2 {
     text-align: left;
-    height: 80vh;
+    height: 60vh;
 }
 #box_2 h5{ font-weight: 600; }
 #citazione{
@@ -137,26 +137,18 @@ line-height: 24px;
  /*Terza Pagina*/
  #box_3 {
          text-align: left;
-          height: 60vh;
-          margin-top: 10%;
+          height: 100vh;     
     }
-    
     .panel3 {
 												height: 100vh;
             width: 100%;
             margin: 0;
             padding: 0;
-												
 				}
 .titolo_h3 { font-family: 'Sole24SerifText-Bold';
              font-weight: 600;
              font-size: 30px;
       }
-  #ascolti-tv-desktop svg {
-            position: relative;
-            top: 35%;
-            transform: translateY(-50%);
-        }
 .legenda {
   font-family:'Sole24Sans-Medium';
   font-size:16px;
@@ -182,19 +174,16 @@ line-height: 24px;
  }
   #ascolti-tv-mobile svg{
             display: none;
-            position: relative;
-            margin-top: 30%;
-            transform: translateY(-50%);
    }
  /*Quarta Pagina*/
 #box_4{
     text-align: left;
-    height: 100vh;
+    height: 50vh;
 }
 /*Quinta Pagina*/
 #box_5{
 			text-align: left;
-			height: 100vh;
+			height: 50vh;
 		}
  /*Sesta Pagina*/
    #box_6 {   text-align: center;
@@ -383,27 +372,32 @@ line-height: 24px;
   		#box_7{
     height: 90vh;
 			text-align: left;
-  /* background-color: coral;*/
 		}
-    #box_7 h6, #box_8 h6, #box_9 h6{
+    #box_7 h6, #box_8 h6 {
             padding-top: 10vh;
             position: relative;
             font-weight: 600;
              }
-        #igienizzanti-desktop {
-           top: 50%;
-            position: relative;
-            transform: translateY(-50%);
-        }
+    .panel7 {
+												height: 100vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+				}
+    
  
    /*Ottava Pagina*/
  #box_8{ text-align: left;
-			height: 100vh;
+			height: 60vh;
 	}
  /*Nona Pagina*/
 #box_9 {
     text-align: left;
-    height: 100vh;
+    height: 30vh;
+}
+#box_9 h6{
+ position: relative;
+ font-weight: 600;
 }
  /*Decima Pagina*/
 
@@ -493,8 +487,6 @@ line-height: 24px;
  .fonte {font-size: 10px;}
  #ascolti-tv-mobile svg {display: inherit;}
  #ascolti-tv-desktop svg {display: none;}
- #igienizzanti-desktop svg {display: none;}
- #igienizzanti-mobile {display: inherit;}
  #box_10 {margin-top: 45%;}  
  #grafico-twitter-mobile svg {display: inherit;}
  #grafico-twitter-desktop svg {display: none;}
