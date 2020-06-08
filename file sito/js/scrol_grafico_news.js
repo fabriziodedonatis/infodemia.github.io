@@ -1,5 +1,5 @@
 $(document).ready(function() { // wait for document ready
-			// init
+			// init  
 			
 			var dim = $("#contenitore_grafico");
 				dim = {x:dim.width(), y:dim.height()};

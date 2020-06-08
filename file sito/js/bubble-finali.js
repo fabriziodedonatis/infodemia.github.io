@@ -12,6 +12,7 @@ $(document).ready(function() {
            });
          }
          }*/
+         
          var controller = new ScrollMagic.Controller();
          new ScrollMagic.Scene({
                     triggerElement: "#box_bubble",
