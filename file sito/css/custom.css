@@ -142,6 +142,8 @@ line-height: 24px;
     .panel3 {
 												height: 100vh;
             width: 100%;
+            margin: 0;
+            padding: 0;
 				}
 .titolo_h3 { font-family: 'Sole24SerifText-Bold';
              font-weight: 600;
@@ -176,12 +178,12 @@ line-height: 24px;
  /*Quarta Pagina*/
 #box_4{
     text-align: left;
-    height: 100vh;
+    height: 50vh;
 }
 /*Quinta Pagina*/
 #box_5{
 			text-align: left;
-			height: 100vh;
+			height: 50vh;
 		}
  /*Sesta Pagina*/
    #box_6 {   text-align: center;
@@ -370,27 +372,31 @@ line-height: 24px;
   		#box_7{
     height: 90vh;
 			text-align: left;
-  /* background-color: coral;*/
 		}
-    #box_7 h6, #box_8 h6, #box_9 h6{
+    #box_7 h6, #box_8 h6 {
             padding-top: 10vh;
             position: relative;
             font-weight: 600;
              }
-        #igienizzanti-desktop {
-           top: 50%;
-            position: relative;
-            transform: translateY(-50%);
-        }
+    .panel7 {
+												height: 100vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+				}
  
    /*Ottava Pagina*/
  #box_8{ text-align: left;
-			height: 100vh;
+			height: 60vh;
 	}
  /*Nona Pagina*/
 #box_9 {
     text-align: left;
-    height: 100vh;
+    height: 30vh;
+}
+#box_9 h6{
+ position: relative;
+ font-weight: 600;
 }
  /*Decima Pagina*/
 
