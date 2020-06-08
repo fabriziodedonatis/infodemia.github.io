@@ -40,7 +40,7 @@ $(document).ready(function() {
                 i++;
             })
                 })
-                //.setClassToggle(".bubbles", "bg")
+                .setClassToggle(".bubbles", "bg")
                 .addTo(controller);
                  
                 new ScrollMagic.Scene({ triggerElement: "#box_12",	duration: "50%", offset: "50",triggerHook: 0.5, })
