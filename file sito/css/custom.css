@@ -127,7 +127,7 @@ line-height: 24px;
 /*Seconda Pagina*/
 #box_2 {
     text-align: left;
-    height: 80vh;
+    height: 60vh;
 }
 #box_2 h5{ font-weight: 600; }
 #citazione{
@@ -137,26 +137,16 @@ line-height: 24px;
  /*Terza Pagina*/
  #box_3 {
          text-align: left;
-          height: 60vh;
-          margin-top: 10%;
+          height: 100vh;     
     }
-    
     .panel3 {
 												height: 100vh;
             width: 100%;
-            margin: 0;
-            padding: 0;
-												
 				}
 .titolo_h3 { font-family: 'Sole24SerifText-Bold';
              font-weight: 600;
              font-size: 30px;
       }
-  #ascolti-tv-desktop svg {
-            position: relative;
-            top: 35%;
-            transform: translateY(-50%);
-        }
 .legenda {
   font-family:'Sole24Sans-Medium';
   font-size:16px;
@@ -182,9 +172,6 @@ line-height: 24px;
  }
   #ascolti-tv-mobile svg{
             display: none;
-            position: relative;
-            margin-top: 30%;
-            transform: translateY(-50%);
    }
  /*Quarta Pagina*/
 #box_4{
