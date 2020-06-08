@@ -47,7 +47,7 @@ $(document).ready(function() {
 				.setPin("#box_12", {	pushFollowers: false})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
-                $(".bubble p").animate({opacity: 0.1 }, 1000).fadeIn(1500);	 	                  
+                $(".bubble p").animate({opacity: 0.1 }, 800).fadeIn(1000);	 	                  
 				})
                 .setClassToggle("#frase-finale", "scale")
 				.addTo(controller);
