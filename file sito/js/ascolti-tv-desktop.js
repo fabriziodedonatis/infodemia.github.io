@@ -1,5 +1,4 @@
 $(document).ready(function() { // wait for document ready
-           var detector = new MobileDetect(window.navigator.userAgent);
             //funzione per calcolare dash lunga come il tracciato
             function pathPrepare($el) {
                 var lineLength = $el[0].getTotalLength();
@@ -10,9 +9,8 @@ $(document).ready(function() { // wait for document ready
 
             // init
             var controller = new ScrollMagic.Controller();
-            
-            if (detector.mobile() == null) {
-             //prima line drawing
+
+            //prima line drawing
 
             pathPrepare($("#ascolti-tv-desktop svg #trend_Gennaio"));
             pathPrepare($("#ascolti-tv-desktop svg #trend_Febbraio"));
@@ -40,6 +38,6 @@ $(document).ready(function() { // wait for document ready
 
                 })
                 .addIndicators() // add indicators (requires plugin)
-                .addTo(controller);   
-            }
+                .addTo(controller);
+
         });

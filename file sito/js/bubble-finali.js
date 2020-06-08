@@ -23,7 +23,6 @@ $(document).ready(function() {
                 })
                 .addIndicators() // add indicators (requires plugin)
                 .on("enter", function(e) {
-                        i=0;
                 $(".bubbles .bubble").each(function() {
                 rndScale = Math.random() * 3;
                 rndX = Math.random() * $(".bubbles").width();
@@ -33,25 +32,18 @@ $(document).ready(function() {
                 $(this).css("transform", "scale(" + rndScale + ")");
                 $(this).css("top", rndY + "px");
                 $(this).css("left", rndX + "px");
-                //$(this).css("opacity", "1");
-                $(this).delay(80 * i*0.8).animate({
-						opacity: 1,
-					    }, 1000).fadeIn(800);
-                i++;
+                $(this).css("opacity", "1");
             })
                 })
                 .setClassToggle(".bubbles", "bg")
                 .addTo(controller);
-                 
+                
                 new ScrollMagic.Scene({ triggerElement: "#box_12",	duration: "50%", offset: "50",triggerHook: 0.5, })
 				.setPin("#box_12", {	pushFollowers: false})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
-                
-                $(".bubble p").animate({opacity: 0.1 }, 1000).fadeIn(1500);
-                //$(".bubbles .bg").animate({backgroundColor:"#1e1e24"}, 1000).fadeIn(1500);
+                $(".bubble p").css("opacity", "0.1");	                  
 				})
-                
                 .setClassToggle("#frase-finale", "scale")
 				.addTo(controller);
         });
