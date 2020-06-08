@@ -399,47 +399,52 @@ line-height: 24px;
  position: relative;
  font-weight: 600;
 }
- /*Decima Pagina*/
+
+/*Decima Pagina*/
 
 #box_10 {  text-align: left;
           height: 100vh;
        
 }
 
-/*- BOLLE DESKTOP-------------------------------*/
-#bolle-twitter-desktop svg {
-            display: inherit;
-            position: relative;
-            margin-top: 15%;
-            transform: translateY(-50%);
-           /*    width:100% */        
-}
+/*- GRAFICI TWITTER-------------------------------*/
 
-#bolle-twitter-desktop svg circle {
-            z-index: -1;
-}
-
-#bolle-twitter-desktop text {
-            z-index: 0;
+#grafici_twitter {
+    position: relative;
+    max-width: 100%;
+    width: 100%,
             
 }
+/*- GRAFICO BOLLE -------------------------*/
+ #bolle_twitter {
+    max-width: 100%;
+    position: relative;
+    height: auto        
+}
 
-/*- GRAFICO TWITTER DESKTOP----------------------*/
+
+ #sequenza_di_bolle_desktop img {
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+    height: auto        
+} 
+
+
+/*- GRAFICO TWITTER LINECHART DESKTOP------*/
+#linea_grafico_twitter {
+            margin-top: 30%;
+            width: 100%;
+            /*max-width: 100%;*/
+}
 #grafico_twitter_desktop svg {
-            position: relative;
-            margin-top: 10%;
-            transform: translateY(-50%);
-            width:100%
+            /*transform: translateY(-50%);*/
+            height: 100%;
+            width: 100%
             
 }
 
-/*- GRAFICO TWITTER MOBILE (da sistemare)-------*/
-#grafico-twitter-mobile svg {
-            display: none;
-            position: relative;
-            top: 20%;
-            transform: translateY(-50%); 
-}
+
 
 /*----------------------------------------------------------------------------------------BOX 12----------*/
   
