@@ -42,14 +42,14 @@ $(document).ready(function() {
                 })
                 //.setClassToggle(".bubbles", "bg")
                 .addTo(controller);
-                
+                 
                 new ScrollMagic.Scene({ triggerElement: "#box_12",	duration: "50%", offset: "50",triggerHook: 0.5, })
 				.setPin("#box_12", {	pushFollowers: false})
 				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
                 
                 $(".bubble p").animate({opacity: 0.1 }, 1000).fadeIn(1500);
-                $(".bubbles .bg").animate({backgroundColor:"#1e1e24"}, 1000).fadeIn(1500);
+                //$(".bubbles .bg").animate({backgroundColor:"#1e1e24"}, 1000).fadeIn(1500);
 				})
                 
                 .setClassToggle("#frase-finale", "scale")
