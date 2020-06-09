@@ -371,8 +371,8 @@ line-height: 24px;
     height: 90vh;
 			 text-align: left;
 		}
-    #box_7 h6, #box_8 h6 {
-            padding-top: 10vh;
+    #box_7 h6 {
+            padding-top: 5vh;
             position: relative;
             font-weight: 600;
              }
@@ -384,7 +384,7 @@ line-height: 24px;
 				}
  #igienizzanti-mobile {
             height: 75vh;
-            border: 1px solid #ECF1F4;
+            border: 0.1px solid #ECF1F4;
             overflow-x: scroll;
             position: relative;
         }
