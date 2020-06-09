@@ -60,6 +60,6 @@ $(document).ready(function() {
                 $("#container_bubble").css("background-color", "#1e1e24");
                 
 				})
-                .setClassToggle("#frase-finale", "scale")
+                .setClassToggle("#frase-finale", "scale") 
 				.addTo(controller);
         });
