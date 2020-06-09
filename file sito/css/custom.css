@@ -476,8 +476,12 @@ line-height: 24px;
 
 
 /*Undicesima Pagina-----BUBBLE CSS A PARTE */
+#container_bubble{
+                 background-color: unset;
+                  }
+
 #box_bubble {
-        
+            overflow: hidden;
             position: relative;
             text-align: center;
             height: 100vh;
@@ -494,7 +498,7 @@ line-height: 24px;
     #box_12 {
             position: relative;
             text-align: center;
-            height: 100vh;
+            height: 70vh;
             }             
  /* ------- CREDITI-----------*/
   

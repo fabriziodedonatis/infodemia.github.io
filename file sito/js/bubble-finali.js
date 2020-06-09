@@ -13,16 +13,17 @@ $(document).ready(function() {
          }
          }*/
          
-         var controller = new ScrollMagic.Controller();
-         new ScrollMagic.Scene({
+         var controller = new ScrollMagic.Controller({loglevel: 3});
+        var bubble_anim = new ScrollMagic.Scene({
                     triggerElement: "#box_bubble",
-					duration: "200%", // hide 10% before exiting view (80% + 10% from bottom)
+					duration: "150%", // hide 10% before exiting view (80% + 10% from bottom)
                     triggerHook: 0,
+                    offset: "0"
                 })
                 .setPin("#box_bubble", {
                     pushFollowers: false
                 })
-                //.addIndicators() // add indicators (requires plugin)
+                .addIndicators() // add indicators (requires plugin)
                 .on("enter", function(e) {
                         i=0;
                 $(".bubbles .bubble").each(function() {
@@ -34,6 +35,7 @@ $(document).ready(function() {
                 $(this).delay(40 * i*0.3).animate({
 						    opacity: 1,
 					            }, 50).fadeIn(10);
+                
                 $(this).css("transform", "scale(" + rndScale + ")");
                 $(this).css("top", rndY + "px");
                 $(this).css("left", rndX + "px");
@@ -41,14 +43,22 @@ $(document).ready(function() {
                 i++;
             })
                 })
+                .on("leave", function(e){
+                        //e.preventDefault();
+                        //bubble_anim.destroy(1);
+                        //controller.destroy(1);
+                        //bubble_anim = null;
+                        })
                 //.setClassToggle(".bubbles", "bg")
                 .addTo(controller);
                 
-                new ScrollMagic.Scene({ triggerElement: "#box_12",	duration: "100%", offset: "50",triggerHook: 0.5, })
+                new ScrollMagic.Scene({ triggerElement: "#box_12",	duration: "80%", offset: "50",triggerHook: 0.5, })
 				.setPin("#box_12", {	pushFollowers: true})
-				//.addIndicators() // add indicators (requires plugin)
+				.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
-                $(".bubble p").animate({opacity: 0.1 }, 100).fadeIn(1500);	 	                  
+                $(".bubble p").animate({opacity: 0.1 }, 100).fadeIn(1500);
+                $("#container_bubble").css("background-color", "#1e1e24");
+                
 				})
                 .setClassToggle("#frase-finale", "scale")
 				.addTo(controller);
