@@ -20,7 +20,7 @@ $(document).ready(function() { // wait for document ready
 				})
 				.setPin("#contenitore_grafico", {
 					pushFollowers: false
-				}) .addIndicators() // add indicators (requires plugin)
+				}) //.addIndicators() // add indicators (requires plugin)
 				 .on("progress", function (e) {
                                            //console.log("camina_"+e.progress);
 					//$("#linee").attr("viewBox", "0 0 "+dim.x +" "+ "inherit");
@@ -32,7 +32,7 @@ $(document).ready(function() { // wait for document ready
 
 			new ScrollMagic.Scene({ triggerElement: "#caption-1", offset: "50vh", duration: "50%"  })
 				.setPin("#caption-1", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio" ).attr( "cx", 0.493 ).attr( "cy", 0.493);
 					
@@ -43,7 +43,7 @@ $(document).ready(function() { // wait for document ready
 
 			new ScrollMagic.Scene({	triggerElement: "#caption-2", offset: "50vh", duration: "50%"	})
 				.setPin("#caption-2", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio" ).attr( "cx", 4.491 ).attr( "cy", 15.536);
 					$("#26_gennaio").attr("opacity", opacit2);
@@ -52,7 +52,7 @@ $(document).ready(function() { // wait for document ready
 
 			new ScrollMagic.Scene({	triggerElement: "#caption-3", offset: "50vh", duration: "50%" })
 				.setPin("#caption-3", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio" ).attr( "cx", 3.159 ).attr( "cy", 23.261);
 					$("#27_gennaio").attr("opacity", opacit);
@@ -61,7 +61,7 @@ $(document).ready(function() { // wait for document ready
 
             new ScrollMagic.Scene({	triggerElement: "#caption-4", offset: "50vh", duration: "50%" })
 				.setPin("#caption-4", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio" ).attr( "cx", 6.491 ).attr( "cy", 38.712);
 					$("#29_gennaio").attr("opacity", opacit2);
@@ -74,7 +74,7 @@ $(document).ready(function() { // wait for document ready
             
            /*  new ScrollMagic.Scene({ triggerElement: "#caption-5", offset: "0",	duration: "150%"	})
 				.setPin("#caption-5", {	pushFollowers: false})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					                    
 				})
@@ -88,7 +88,7 @@ $(document).ready(function() { // wait for document ready
 				})
 				.setPin("#caption-5", {
 					pushFollowers: false
-				}) .addIndicators() // add indicators (requires plugin)
+				}) //.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio2" ).attr( "cx", 31 ).attr( "cy", 54.563).attr("opacity", 1);
 					$("#31_gennaio").attr("opacity", opacit2);
@@ -100,7 +100,7 @@ $(document).ready(function() { // wait for document ready
 			//trafiletto------------------------
 				new ScrollMagic.Scene({ triggerElement: "#caption-5-1",triggerHook: 0.5, offset: "100",	duration: "50%"	})
 				.setPin("#caption-5-1", {	pushFollowers: true})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					                    
 				})
@@ -111,7 +111,7 @@ $(document).ready(function() { // wait for document ready
 			
 				new ScrollMagic.Scene({ triggerElement: "#caption-5-2",triggerHook: 0.1, offset: "0",	duration: "50%"	})
 				.setPin("#caption-5-2", {	pushFollowers: true})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					maxX=$(".anim_mascherine").width();
 					minX=$(".anim_mascherine").width()/10;
@@ -166,7 +166,7 @@ $(document).ready(function() { // wait for document ready
 			
             new ScrollMagic.Scene({ triggerElement: "#caption-6", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-6", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio" ).attr( "cx", 5.824 ).attr( "cy", 77.339).attr("opacity", 1);
 					$("#03_febbraio").attr("opacity", opacit);
@@ -175,7 +175,7 @@ $(document).ready(function() { // wait for document ready
             
             new ScrollMagic.Scene({ triggerElement: "#caption-7", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-7", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					// $( "#cerchio" ).attr( "cx", 7.824 ).attr( "cy", 131.417);
 					$( "#cerchio" ).attr( "cx", 65.14 ).attr( "cy", 239.573);
@@ -187,7 +187,7 @@ $(document).ready(function() { // wait for document ready
             
             new ScrollMagic.Scene({ triggerElement: "#caption-8", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-8", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio" ).attr( "cx", 43.146 ).attr( "cy", 293.651);
 					$("#02_marzo").attr("opacity", opacit);
@@ -196,7 +196,7 @@ $(document).ready(function() { // wait for document ready
             
             new ScrollMagic.Scene({ triggerElement: "#caption-9", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-9", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio" ).attr( "cx", 54.476 ).attr( "cy", 332.278);
 					$("#07_marzo").attr("opacity", opacit2);
@@ -209,7 +209,7 @@ $(document).ready(function() { // wait for document ready
             
          /*   new ScrollMagic.Scene({ triggerElement: "#caption-10", offset: "0",	duration: "50%"	})
 				.setPin("#caption-10", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					                    
 				})
@@ -224,7 +224,7 @@ $(document).ready(function() { // wait for document ready
 				})
 				.setPin("#caption-10", {
 					pushFollowers: false
-				}) .addIndicators() // add indicators (requires plugin)
+				}) //.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio3" ).attr( "cx", 10 ).attr( "cy", 343).attr("opacity", 1);
 					$("#trenddx_1").attr("opacity", 1 );
@@ -234,7 +234,7 @@ $(document).ready(function() { // wait for document ready
 				//trafiletto------------------------
 				new ScrollMagic.Scene({ triggerElement: "#caption-10-1",triggerHook: 0.5, offset: "100",	duration: "50%"	})
 				.setPin("#caption-10-1", {	pushFollowers: true})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					                    
 				})
@@ -246,7 +246,7 @@ $(document).ready(function() { // wait for document ready
 			
 				new ScrollMagic.Scene({ triggerElement: "#caption-10-2",triggerHook: 0.1, offset: "0",	duration: "50%"	})
 				.setPin("#caption-10-2", {	pushFollowers: true})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					maxX=$(".anim_treni").width();
 					minX=$(".anim_treni").width()/10;
@@ -279,7 +279,7 @@ $(document).ready(function() { // wait for document ready
             
             new ScrollMagic.Scene({ triggerElement: "#caption-11", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-11", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					 $( "#cerchio" ).attr( "cx", 59.141 ).attr( "cy", 347.729).attr("opacity",1);
 					 $("#09_marzo").attr("opacity", opacit);
@@ -291,7 +291,7 @@ $(document).ready(function() { // wait for document ready
             
        /*     new ScrollMagic.Scene({ triggerElement: "#caption-12", offset: "0",	duration: "50%"	})
 				.setPin("#caption-12", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					                    
 				})
@@ -305,7 +305,7 @@ $(document).ready(function() { // wait for document ready
 				})
 				.setPin("#caption-12", {
 					pushFollowers: false
-				}) .addIndicators() // add indicators (requires plugin) 
+				}) //.addIndicators() // add indicators (requires plugin) 
 				
 				.on("enter", function(e) {
 					 $( "#cerchio4" ).attr( "cx", 6 ).attr( "cy", 355.529).attr("opacity", 1);
@@ -319,7 +319,7 @@ $(document).ready(function() { // wait for document ready
 			//trafiletto------------------------
 				new ScrollMagic.Scene({ triggerElement: "#caption-12-1",triggerHook: 0.5, offset: "100",	duration: "50%"	})
 				.setPin("#caption-12-1", {	pushFollowers: true})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					                    
 				})
@@ -330,7 +330,7 @@ $(document).ready(function() { // wait for document ready
 			
 				new ScrollMagic.Scene({ triggerElement: "#caption-12-2",triggerHook: 0.1, offset: "0", duration: "50%"	})
 				.setPin("#caption-12-2", {pushFollowers: true})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					maxX=$(".anim_supermercati").width();
 					minX=$(".anim_supermercati").width()/10;
@@ -361,7 +361,7 @@ $(document).ready(function() { // wait for document ready
             
             new ScrollMagic.Scene({ triggerElement: "#caption-13", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-13", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio" ).attr( "cx", 39.814 ).attr( "cy", 401.807).attr("opacity",1);
 					$("#16_marzo").attr("opacity", opacit);
@@ -370,7 +370,7 @@ $(document).ready(function() { // wait for document ready
                 
             new ScrollMagic.Scene({ triggerElement: "#caption-14", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-14", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					$( "#cerchio" ).attr( "cx", 31.15  ).attr( "cy", 455.885);
 					$("#28_marzo").attr("opacity", opacit2);
@@ -379,7 +379,7 @@ $(document).ready(function() { // wait for document ready
                 
             new ScrollMagic.Scene({ triggerElement: "#caption-15", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-15", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					 $( "#cerchio" ).attr( "cx", 26.485 ).attr( "cy", 509.963);
 					 $("#30_marzo").attr("opacity", opacit);
@@ -388,7 +388,7 @@ $(document).ready(function() { // wait for document ready
                 
             new ScrollMagic.Scene({ triggerElement: "#caption-16", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-16", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					  $( "#cerchio" ).attr( "cx", 23.152 ).attr( "cy", 564.041);
 					  $("#06_aprile").attr("opacity", opacit);
@@ -397,7 +397,7 @@ $(document).ready(function() { // wait for document ready
                 
             new ScrollMagic.Scene({ triggerElement: "#caption-17", offset: "50vh",	duration: "50%"	})
 				.setPin("#caption-17", {	pushFollowers: true	})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
 					  $( "#cerchio" ).attr( "cx", 19.82 ).attr( "cy", 618.119);
 					  $("#13_aprile").attr("opacity", opacit);
@@ -423,7 +423,7 @@ $(document).ready(function() { // wait for document ready
 						})
                         .setPin(".trf_mascherine", {	pushFollowers: false	})
 						.setClassToggle(".trf_mascherine", "visible") // add class to reveal
-						.addIndicators() // add indicators (requires plugin)
+						//.addIndicators() // add indicators (requires plugin)
                        	.on("enter", function(e) {
 					                    
 				})
