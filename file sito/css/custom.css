@@ -127,7 +127,8 @@ line-height: 24px;
 /*Seconda Pagina*/
 #box_2 {
     text-align: left;
-    height: 60vh;
+    height: 70vh;
+    margin-top: 5%;
 }
 #box_2 h5{ font-weight: 600; }
 #citazione{
@@ -137,7 +138,7 @@ line-height: 24px;
  /*Terza Pagina*/
  #box_3 {
          text-align: left;
-          height: 120vh;
+          height: 110vh;
     }
     .panel3 {
 												height: 100vh;
@@ -370,8 +371,8 @@ line-height: 24px;
     height: 90vh;
 			 text-align: left;
 		}
-    #box_7 h6, #box_8 h6 {
-            padding-top: 10vh;
+    #box_7 h6 {
+            padding-top: 5vh;
             position: relative;
             font-weight: 600;
              }
@@ -383,7 +384,7 @@ line-height: 24px;
 				}
  #igienizzanti-mobile {
             height: 75vh;
-            border: 1px solid #ECF1F4;
+            border: 0.1px solid #ECF1F4;
             overflow-x: scroll;
             position: relative;
         }
@@ -405,12 +406,13 @@ line-height: 24px;
  }
    /*Ottava Pagina*/
  #box_8{ text-align: left;
-			height: 90vh;
+			height: 70vh;
 	}
  /*Nona Pagina*/
 #box_9 {
     text-align: left;
     height: 30vh;
+    
 }
 #box_9 h6{
  position: relative;
@@ -420,8 +422,8 @@ line-height: 24px;
 /*Decima Pagina*/
 
 #box_10 {  text-align: left;
-          height: 100vh;
-       
+          height: 90vh;
+                 
 }
 
 /*- GRAFICI TWITTER-------------------------------*/
@@ -430,7 +432,6 @@ line-height: 24px;
     position: relative;
     max-width: 100%;
     width: 100%,
-            
 }
 /*- GRAFICO BOLLE -------------------------*/
  #bolle_twitter {
@@ -438,16 +439,18 @@ line-height: 24px;
     position: relative;
     height: auto        
 }
-
-
  #sequenza_di_bolle_desktop img {
-    margin-top: 5%;
+    margin-top: 10%;
     width: 100%;
     position: relative;
     height: auto        
 } 
-
-
+ #sequenza_di_bolle_mobile img {
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+    height: auto;
+}
 /*- GRAFICO TWITTER LINECHART DESKTOP------*/
 #linea_grafico_twitter {
             margin-top: 30%;
@@ -457,10 +460,13 @@ line-height: 24px;
 #grafico_twitter_desktop svg {
             /*transform: translateY(-50%);*/
             height: 100%;
-            width: 100%
-            
+            width: 100%           
 }
-
+#grafico-twitter-mobile svg {
+            /*transform: translateY(-50%);*/
+            height: 100%;
+            width: 100%;     
+}
 
 
 /*----------------------------------------------------------------------------------------BOX 12----------*/
@@ -531,18 +537,24 @@ line-height: 24px;
  }
  .variabili {font-size: 10px;}
  .fonte {font-size: 10px;}
- #box_10 {margin-top: 45%;}  
- #grafico-twitter-mobile svg {display: inherit;}
- #grafico-twitter-desktop svg {display: none;}
+
+ #box_10 {margin-top: 45%;} 
+
 }
+
 @media (min-width: 500px) {
  #ascolti-tv-mobile svg {display: none;}
  #igienizzanti-mobile {display: none;}
+ #grafico-twitter-mobile svg {display: none;}
+ #sequenza_di_bolle_mobile img {display: none;}
 }
 @media (max-width: 500px) {
  #ascolti-tv-desktop svg {display: none;}
  .panel7 {display: none;} /*nasconde igienizzanti desktop*/
-  #box_7 {height: 230vh;}
+  #box_7 {height: 200vh;}
+  #grafico-twitter-desktop svg {display: none;}
+  #sequenza_di_bolle_desktop img {display: none;}
+
 }
 @media (max-width: 650px) {	
 .menu_grafico{	font-size: 0.6rem;

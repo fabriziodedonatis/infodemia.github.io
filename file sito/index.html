@@ -33,7 +33,7 @@
   <script src="js/scrol_grafico_news.js"></script>
   <script src="js/ascolti-tv-desktop.js"></script>
   <script src="js/igienizzanti.js"></script>
-  <script src="js/grafico-twitter-desktop.js"></script>
+  <script src="js/grafici_twiter.js"></script>
   <script src="js/bubble-finali.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
@@ -716,26 +716,23 @@ Consentono a chiunque di poter condividere velocemente informazioni che arrivino
       <div class="row" id="box_10">
             <div class="offset-by-one columns ten" id="grafici_twitter">
                   
-            <!-- --------BUBBLE DESKTOP------- da sistemare  -->     
+            <!-- --------CONTENITORE BUBBLE----------------------------------  -->     
                    <div id="bolle-twitter">   
                        
                         <div id="sequenza_di_bolle_desktop">
-                            <img id="bolle"src="images/png_bubble_twitter/bolle-01.png">
-                       
+                         <img id="bolle"src="images/png_bubble_twitter/bolle-01.png">
                         </div><!--fine bolle twitter desktop -->
-                       
+
                         <div id="sequenza_di_bolle_mobile">
-                     
-                       
-                        </div><!--fine bolle twitter desktop -->
-                       
-                       
+                          <img id="bolle_mobile" src="images/png_bubble_twitter_mobile/bolle_mobile_-01.png">
+                        </div><!--fine bolle twitter mobile -->
+                                             
                    </div>              
        
-            <!-- --------GRAFICO TWITTER LINECHART DESKTOP------- --> 
+            <!-- --------CONTENITORE GRAFICO CHARTLINE ---------------------- --> 
               <div id="grafico_twitter_chartline">
                   
-                   <div id="grafico-twitter-desktop">
+              <div id="grafico-twitter-desktop">
                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 1457 405" style="enable-background:new 0 0 1457 405;" xml:space="preserve">
                 <g id="testi_grafico_twint_desktop">
@@ -857,8 +854,124 @@ Consentono a chiunque di poter condividere velocemente informazioni che arrivino
                 </g>
                        
                   </svg>
-                </div> <!--fine grafico twitter desktop -->
- 
+                  </div> <!--fine grafico twitter desktop -->
+
+        <!-- --------GRAFICO TWITTER MOBILE----------------------------------------------- --> 
+              
+                   <div id="grafico-twitter-mobile">
+        
+                   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 370 236.9" style="enable-background:new 0 0 370 236.9;" xml:space="preserve">
+<g id="testi_twitter_mobile">
+  <rect x="11.9" y="186.6" style="fill:none;" width="45.1" height="34"/>
+  
+    <text class="variabili"  transform="matrix(1 0 0 1 32.1401 192.2582)" style="opacity:0.5;fill:#1E1E24; font-family:'Sole24Sans-Regular'; font-size:8px;">0</text>
+  <rect x="11.4" y="154.5" style="fill:none;" width="45.1" height="34"/>
+  
+    <text class="variabili" transform="matrix(1 0 0 1 29.8433 160.1066)" style="opacity:0.5;fill:#1E1E24; font-family:'Sole24Sans-Regular'; font-size:8px;">10</text>
+  <rect x="11.2" y="122.3" style="fill:none;" width="45.1" height="34"/>
+  
+    <text class="variabili" transform="matrix(1 0 0 1 29.2378 127.9552)" style="opacity:0.5;fill:#1E1E24; font-family:'Sole24Sans-Regular'; font-size:8px;">20</text>
+  <rect x="11.5" y="90.2" style="fill:none;" width="45.1" height="34"/>
+  
+    <text class="variabili" transform="matrix(1 0 0 1 29.4761 95.8038)" style="opacity:0.5;fill:#1E1E24; font-family:'Sole24Sans-Regular'; font-size:8px;">30</text>
+  <rect x="11.2" y="58" style="fill:none;" width="45.1" height="34"/>
+  
+    <text class="variabili" transform="matrix(1 0 0 1 29.2144 63.6522)" style="opacity:0.5;fill:#1E1E24; font-family:'Sole24Sans-Regular'; font-size:8px;">40</text>
+  <rect x="11.2" y="25.9" style="fill:none;" width="45.1" height="34"/>
+  
+    <text class="variabili" transform="matrix(1 0 0 1 29.2017 31.5009)" style="opacity:0.5;fill:#1E1E24; font-family:'Sole24Sans-Regular'; font-size:8px;">50</text>
+  <g>
+    <rect x="61.5" y="196.4" style="fill:none;" width="22.6" height="18.4"/>
+    <text class="variabili" transform="matrix(1 0 0 1 61.5081 202.0587)"><tspan class="variabili" x="0" y="0" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">27</tspan><tspan class="variabili" x="0" y="9.6" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">GEN</tspan></text>
+  </g>
+  <g>
+    <rect x="112.6" y="196.4" style="fill:none;" width="22.6" height="18.4"/>
+    <text class="variabili" transform="matrix(1 0 0 1 112.6387 202.0587)"><tspan class="variabili" x="0" y="0" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">10</tspan><tspan  class="variabili" x="0" y="9.6" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">FEB</tspan></text>
+  </g>
+  <g>
+    <rect x="163.8" y="196.4" style="fill:none;" width="22.6" height="18.4"/>
+    <text class="variabili" transform="matrix(1 0 0 1 163.7699 202.0587)"><tspan class="variabili" x="0" y="0" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">24</tspan><tspan class="variabili" x="0" y="9.6" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">FEB</tspan></text>
+  </g>
+  <g>
+    <rect x="214.9" y="196.4" style="fill:none;" width="22.6" height="18.4"/>
+    <text class="variabili" transform="matrix(1 0 0 1 214.9009 202.0587)"><tspan class="variabili" x="0" y="0" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">09</tspan><tspan class="variabili" x="0" y="9.6" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">MAR</tspan></text>
+  </g>
+  <g>
+    <rect x="266" y="196.4" style="fill:none;" width="22.6" height="18.4"/>
+    <text class="variabili" transform="matrix(1 0 0 1 266.0319 202.0587)"><tspan class="variabili" x="0" y="0" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">23</tspan><tspan class="variabili" x="0" y="9.6" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">MAR</tspan></text>
+  </g>
+  <g>
+    <rect x="317.2" y="196.4" style="fill:none;" width="22.6" height="18.4"/>
+    <text class="variabili" transform="matrix(1 0 0 1 317.1626 202.0587)"><tspan class="variabili" x="0" y="0" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">06</tspan><tspan class="variabili" x="0" y="9.6" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">APR</tspan></text>
+  </g>
+  <g>
+    <rect x="295.6" y="223.5" style="fill:none;" width="47.8" height="9.1"/>
+    <text class="fonte" transform="matrix(1 0 0 1 295.5583 229.1368)" style="fill:#999999; font-family:'Sole24Sans-Regular'; font-size:8px;">fonte: Twint</text>
+  </g>
+  <g>
+    <rect x="187.1" y="12.3" style="fill:none;" width="39.1" height="9.1"/>
+    <text  class="legenda" transform="matrix(1 0 0 1 187.1028 19.3585)" style="fill:#82204A; font-family:'Sole24Sans-Medium'; font-size:10px;">#paura</text>
+  </g>
+  <g>
+    <rect x="52.6" y="12.3" style="fill:none;" width="34.8" height="9.1"/>
+    <text class="legenda" transform="matrix(1 0 0 1 52.5977 19.3585)" style="fill:#DEBA6F; font-family:'Sole24Sans-Medium'; font-size:10px;">#morti</text>
+  </g>
+  <g>
+    <rect x="116.1" y="12.3" style="fill:none;" width="47.9" height="9.1"/>
+    <text class="legenda" transform="matrix(1 0 0 1 116.0649 19.3585)" style="fill:#009999; font-family:'Sole24Sans-Medium'; font-size:10px;">#allarme</text>
+  </g>
+</g>
+<g id="linea">
+  <g style="opacity:0.15;">
+    
+      <line style="opacity:0.5;fill:none;stroke:#1E1E24;stroke-width:0.25;stroke-miterlimit:10;" x1="61.7" y1="192.5" x2="341.4" y2="192.5"/>
+    
+      <line style="opacity:0.15;fill:none;stroke:#1E1E24;stroke-width:0.25;stroke-miterlimit:10;" x1="61.5" y1="160.1" x2="340.2" y2="160.1"/>
+    
+      <line style="opacity:0.15;fill:none;stroke:#1E1E24;stroke-width:0.25;stroke-miterlimit:10;" x1="61.5" y1="95.4" x2="340.2" y2="95.4"/>
+    
+      <line style="opacity:0.15;fill:none;stroke:#1E1E24;stroke-width:0.25;stroke-miterlimit:10;" x1="61.5" y1="63" x2="341.4" y2="63"/>
+    
+      <line style="opacity:0.15;fill:none;stroke:#1E1E24;stroke-width:0.25;stroke-miterlimit:10;" x1="61.5" y1="127.8" x2="340.2" y2="127.8"/>
+    
+      <line style="opacity:0.15;fill:none;stroke:#1E1E24;stroke-width:0.25;stroke-miterlimit:10;" x1="61.5" y1="30.7" x2="341.4" y2="30.7"/>
+  </g>
+</g>
+<g id="andamento_allarme_mobile">
+  <path id="andamento_allarme_mobile_chartline" style="fill:none;stroke:#009999;stroke-miterlimit:10;" d="M61.9,183.6 65.1,174.8 68.7,178.1 72.4,184.6 76,155.4 
+    79.6,152.1 83.2,184.6 86.8,171.6 90.5,184.6 94.1,174.8 97.7,191 101.3,181.3 104.9,184.6 108.5,191 112.2,187.8 115.8,174.8 
+    123,187.8 126.6,181.3 130.3,178.1 133.9,184.6 137.5,187.8 144.7,187.8 148.4,184.6 152,187.8 155.6,158.6 159.2,155.4 
+    162.8,161.9 166.4,178.1 170.1,165.1 173.7,161.9 177.3,174.8 180.9,181.3 184.5,184.6 191.8,178.1 195.4,187.8 199,181.3 
+    202.6,168.3 206.2,174.8 209.9,165.1 213.5,178.1 217.1,168.3 220.7,171.6 224.3,184.6 228,191 231.6,181.3 235.2,184.6 
+    238.8,171.6 242.4,165.1 249.7,178.1 256.9,184.6 260.5,181.3 264.1,184.6 267.8,178.1 271.4,168.3 275,181.3 278.6,174.8 
+    282.2,187.8 285.9,184.6 289.5,174.8 293.1,184.6 296.7,191 300.3,181.3 307.6,187.8 311.2,184.6 314.8,184.6 318.4,181.3 
+    322,187.8 325.7,181.3 329.3,191 332.9,187.8 336.5,171.6 340.1,181.3   "/>
+</g>
+<g id="andamento_paura_mobile">
+  <path id="andamento_paura_mobile_chartline" style="fill:none;stroke:#82204A;stroke-miterlimit:10;" d="M61.5,191.3 65.1,191.3 68.7,191 72.4,191 76,191 
+    79.6,191 83.2,191.3 86.8,191.3 90.5,191.3 94.1,191.3 97.7,191.3 101.3,191.3 104.9,191.3 108.5,191.3 112.2,191.3 115.8,191.3 
+    119.4,191.3 123,191.3 126.6,191.3 130.3,191.3 133.9,191.3 137.5,191.3 141.1,187.8 144.7,191 152,184.6 155.6,178.1 159.2,152.1 
+    162.8,135.9 166.4,123 170.1,84.1 173.7,100.3 177.3,132.7 180.9,100.3 184.5,132.7 188.2,155.4 191.8,142.4 195.4,126.2 
+    199,158.6 202.6,161.9 206.2,148.9 209.9,152.1 213.5,126.2 217.1,145.7 220.7,148.9 224.3,135.9 228,145.7 231.6,103.5 
+    235.2,132.7 238.8,135.9 242.4,148.9 246,158.6 249.7,126.2 253.3,123 256.9,132.7 260.5,168.3 267.8,148.9 271.4,161.9 275,155.4 
+    278.6,168.3 282.2,161.9 289.5,174.8 293.1,171.6 296.7,171.6 300.3,158.6 303.9,187.8 307.6,178.1 311.2,178.1 314.8,168.3 
+    318.4,171.6 322,184.6 325.7,174.8 329.3,178.1 332.9,168.3 336.5,181.3 340.1,187.8   "/>
+</g>
+<g id="andamento_morti_mobile">
+  <path id="andamento_morti_mobile_chartline" style="fill:none;stroke:#DEBA6F;stroke-miterlimit:10;" d="M61.9,171.6 65.1,171.6 68.7,145.7 72.4,168.3 76,139.2 
+    79.6,148.9 83.2,148.9 86.8,168.3 90.5,161.9 94.1,178.1 97.7,178.1 101.3,168.3 104.9,165.1 108.5,187.8 112.2,171.6 115.2,163.5 
+    119.4,148.9 123,171.6 126.6,148.9 130.3,181.3 133.9,152.1 137.5,178.1 141.1,155.4 144.7,165.1 148.4,168.3 152,148.9 
+    155.6,178.1 159.2,139.2 162.8,135.9 166.4,103.5 170.1,74.3 173.7,165.1 177.3,152.1 180.9,152.1 184.5,132.7 188.2,165.1 
+    191.8,123 195.4,123 199,165.1 202.6,142.4 206.2,135.9 209.9,135.9 213.5,145.7 217.1,93.8 220.7,74.3 224.3,51.6 228,148.9 
+    231.6,155.4 235.2,97 238.8,123 242.4,123 246,145.7 253.3,48.4 256.9,90.5 260.5,71.1 264.1,80.8 267.8,100.3 271.4,132.7 
+    275,64.6 278.6,77.6 282.2,38.7 285.9,45.2 289.5,61.4 293.1,84.1 296.7,90.5 300.3,119.7 303.9,106.8 307.6,100.3 311.2,64.6 
+    314.8,71.1 322,103.5 325.7,100.3 329.3,87.3 332.9,80.8 336.5,116.5 340.1,116.5  "/>
+</g>
+</svg>
+                  </div> <!--fine grafico twitter mobile -->
+
+              
               </div><!-- fine grafico twitter chartline -->
             </div> <!-- fine grafici twitter -->
     </div> <!-- fine box_10 -->
@@ -866,7 +979,6 @@ Consentono a chiunque di poter condividere velocemente informazioni che arrivino
   <!-- fine contenitore generale-->
   </div>
     <!-- UNDICESIMA PAGINA ---BOLLE EMERSIVE------------------------ -->
- <div id="container_bubble">  
   <div id="box_bubble">
     <div class="bubbles">
         <div class="bubble">
@@ -1827,19 +1939,19 @@ Consentono a chiunque di poter condividere velocemente informazioni che arrivino
 </div>
      <!-- DODICESIMA PAGINA --------------------------- -->
 
-    <div class="row" id="box_12">
-   		    <div id="frase-finale">
-                <h2>Infodemia</h2>
-                <p>inserire una breve riflessione per suggerire alle persone di restare consapevoli nell’affrontare </p>
+     <div class="row" id="box_12">
+   		   <div id="frase-finale">
+   			  <h2>Infodemia</h2>
+   			  <p>inserire una breve riflessione per suggerire alle persone di restare consapevoli nell’affrontare </p>
    		   </div>
     </div>    
-</div>          
+         
          
          <!-- ------CREDITI------------------------ -->
-  
+      
       <div class="row" id="crediti" >
-            <div class="offset-by-four columns four">
-              <div  class="crediti_contenuto">
+            <div class="offset-by-four columns four"  >
+              <div class="crediti_contenuto">
                 <p>Progetto in collaborazione con gli studenti del lab. di design dei sistemi del corso di laurea
                 magistrale in design della Università degli studi della Repubblica di San Marino </p>
            
@@ -1851,10 +1963,10 @@ Consentono a chiunque di poter condividere velocemente informazioni che arrivino
                     <b>Docente:</b> Matteo Moretti
             </p>
             </div>
-            </div>
+        </div>
         
       </div>
-    
+         
          
          
  
