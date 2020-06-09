@@ -137,7 +137,7 @@ line-height: 24px;
  /*Terza Pagina*/
  #box_3 {
          text-align: left;
-          height: 110vh;
+          height: 120vh;
     }
     .panel3 {
 												height: 100vh;
@@ -172,9 +172,6 @@ line-height: 24px;
   stroke-width:0.25;
   stroke-miterlimit:10;
  }
-  #ascolti-tv-mobile svg{
-            display: none;
-   }
  /*Quarta Pagina*/
 #box_4{
     text-align: left;
@@ -371,7 +368,7 @@ line-height: 24px;
   /*Settima Pagina*/
   		#box_7{
     height: 90vh;
-			text-align: left;
+			 text-align: left;
 		}
     #box_7 h6, #box_8 h6 {
             padding-top: 10vh;
@@ -384,11 +381,31 @@ line-height: 24px;
             margin: 0;
             padding: 0;
 				}
-    
- 
+ #igienizzanti-mobile {
+            height: 75vh;
+            border: 1px solid #ECF1F4;
+            overflow-x: scroll;
+            position: relative;
+        }
+
+        #igienizzanti-mobile #chart {
+            width: 2240px;
+            position: absolute;
+            left: 0px;
+        }
+        #chart {
+        height: 100%;
+        }
+        #igienizzanti-mobile h7 {position: absolute;}
+        #igienizzanti-mobile p {position: absolute; top:0; left:0; font-size: 0.9rem;font-family:'Sole24Sans-Medium';}
+ .variabili-igienizzanti {
+  fill:#989898;
+  font-family:'Sole24Sans-Regular';
+  font-size:12px;
+ }
    /*Ottava Pagina*/
  #box_8{ text-align: left;
-			height: 60vh;
+			height: 90vh;
 	}
  /*Nona Pagina*/
 #box_9 {
@@ -479,7 +496,7 @@ line-height: 24px;
             text-align: center;
             height: 100vh;
             }             
-  /* ------- CREDITI-----------*/
+ /* ------- CREDITI-----------*/
   
   #crediti{
     position: relative;
@@ -499,7 +516,7 @@ line-height: 24px;
    .crediti_contenuto p{
                font-family: 'Sole24Sans-Regular';
                font-size: 1.1rem;
-               }            
+               }                   
                     
     /* Larger than mobile */
 @media (max-width: 400px) {
@@ -510,13 +527,19 @@ line-height: 24px;
  }
  .variabili {font-size: 10px;}
  .fonte {font-size: 10px;}
- #ascolti-tv-mobile svg {display: inherit;}
- #ascolti-tv-desktop svg {display: none;}
  #box_10 {margin-top: 45%;}  
  #grafico-twitter-mobile svg {display: inherit;}
  #grafico-twitter-desktop svg {display: none;}
 }
-
+@media (min-width: 500px) {
+ #ascolti-tv-mobile svg {display: none;}
+ #igienizzanti-mobile {display: none;}
+}
+@media (max-width: 500px) {
+ #ascolti-tv-desktop svg {display: none;}
+ .panel7 {display: none;} /*nasconde igienizzanti desktop*/
+  #box_7 {height: 230vh;}
+}
 @media (max-width: 650px) {	
 .menu_grafico{	font-size: 0.6rem;
 		}
