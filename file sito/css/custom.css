@@ -479,7 +479,27 @@ line-height: 24px;
             text-align: center;
             height: 100vh;
             }             
-                    
+  /* ------- CREDITI-----------*/
+  
+  #crediti{
+    position: relative;
+    text-align: center;
+    background-color:#1e1e24;
+    color: #ECF1F4;
+    
+    padding:3%;
+    margin:auto;
+    }
+    
+   .crediti_contenuto{
+                text-align: left;
+                margin:auto;
+                }
+                
+   .crediti_contenuto p{
+               font-family: 'Sole24Sans-Regular';
+               font-size: 1.1rem;
+               }            
                     
     /* Larger than mobile */
 @media (max-width: 400px) {

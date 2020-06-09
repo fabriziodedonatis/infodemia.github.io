@@ -22,7 +22,7 @@ $(document).ready(function() {
                 .setPin("#box_bubble", {
                     pushFollowers: false
                 })
-                .addIndicators() // add indicators (requires plugin)
+                //.addIndicators() // add indicators (requires plugin)
                 .on("enter", function(e) {
                         i=0;
                 $(".bubbles .bubble").each(function() {
@@ -31,9 +31,9 @@ $(document).ready(function() {
                 rndY = Math.random() * $(".bubbles").height();
                 rndOrbit = Math.random() * 5;
                 speed = Math.random() * 2;
-                $(this).delay(40 * i*0.5).animate({
+                $(this).delay(40 * i*0.3).animate({
 						    opacity: 1,
-					            }, 80).fadeIn(10);
+					            }, 50).fadeIn(10);
                 $(this).css("transform", "scale(" + rndScale + ")");
                 $(this).css("top", rndY + "px");
                 $(this).css("left", rndX + "px");
@@ -44,11 +44,11 @@ $(document).ready(function() {
                 //.setClassToggle(".bubbles", "bg")
                 .addTo(controller);
                 
-                new ScrollMagic.Scene({ triggerElement: "#box_12",	duration: "50%", offset: "50",triggerHook: 0.5, })
-				.setPin("#box_12", {	pushFollowers: false})
-				.addIndicators() // add indicators (requires plugin)
+                new ScrollMagic.Scene({ triggerElement: "#box_12",	duration: "100%", offset: "50",triggerHook: 0.5, })
+				.setPin("#box_12", {	pushFollowers: true})
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
-                $(".bubble p").animate({opacity: 0.1 }, 800).fadeIn(1000);	 	                  
+                $(".bubble p").animate({opacity: 0.1 }, 100).fadeIn(1500);	 	                  
 				})
                 .setClassToggle("#frase-finale", "scale")
 				.addTo(controller);
