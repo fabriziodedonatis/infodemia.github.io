@@ -40,7 +40,7 @@ $(document).ready(function() { // wait for document ready
                 .on("enter", function(e) {
 
                 })
-                .addIndicators() // add indicators (requires plugin)
+                //.addIndicators() // add indicators (requires plugin)
                 .addTo(controller);   
             }
         });

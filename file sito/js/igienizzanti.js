@@ -20,7 +20,7 @@ $(document).ready(function() {
                         pushFollowers: false
                     })
                     .setTween(tween)
-                    .addIndicators()
+                    //.addIndicators()
                     .addTo(controller); 
             }
             else if (detector.mobile() == null){
@@ -59,7 +59,7 @@ $(document).ready(function() {
                 .on("enter", function(e) {
 
                 })
-                .addIndicators() // add indicators (requires plugin)
+                //.addIndicators() // add indicators (requires plugin)
                 .addTo(controller);  
             }
         });

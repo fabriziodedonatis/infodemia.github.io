@@ -145,7 +145,7 @@ $(document).ready(function () { // wait for document ready
             duration: "800%"
         })
         .setTween(tween2)
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
     /*------------------------------------------------*/
@@ -162,7 +162,7 @@ $(document).ready(function () { // wait for document ready
         .on("enter", function (e) {
 
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
 });
