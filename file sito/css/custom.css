@@ -127,7 +127,8 @@ line-height: 24px;
 /*Seconda Pagina*/
 #box_2 {
     text-align: left;
-    height: 60vh;
+    height: 70vh;
+    margin-top: 5%;
 }
 #box_2 h5{ font-weight: 600; }
 #citazione{
@@ -137,7 +138,7 @@ line-height: 24px;
  /*Terza Pagina*/
  #box_3 {
          text-align: left;
-          height: 120vh;
+          height: 110vh;
     }
     .panel3 {
 												height: 100vh;
@@ -405,7 +406,7 @@ line-height: 24px;
  }
    /*Ottava Pagina*/
  #box_8{ text-align: left;
-			height: 90vh;
+			height: 70vh;
 	}
  /*Nona Pagina*/
 #box_9 {
@@ -546,7 +547,7 @@ line-height: 24px;
 @media (max-width: 500px) {
  #ascolti-tv-desktop svg {display: none;}
  .panel7 {display: none;} /*nasconde igienizzanti desktop*/
-  #box_7 {height: 230vh;}
+  #box_7 {height: 200vh;}
   #grafico-twitter-desktop svg {display: none;}
   #sequenza_di_bolle_desktop img {display: none;}
 
