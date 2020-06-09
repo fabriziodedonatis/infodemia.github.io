@@ -47,7 +47,7 @@ $(document).ready(function() {
                         //e.preventDefault();
                         //bubble_anim.destroy(1);
                         //controller.destroy(1);
-                        //bubble_anim = null;
+                        //bubble_anim = null; 
                         })
                 //.setClassToggle(".bubbles", "bg")
                 .addTo(controller);
