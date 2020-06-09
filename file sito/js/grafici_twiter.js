@@ -149,7 +149,7 @@ $(document).ready(function() {
             duration: "800%"
         })
         .setTween(tween3)
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         .addTo(controller);
     /*------------------------------------------------*/
     // build scene grafico linechart twitter
@@ -165,7 +165,7 @@ $(document).ready(function() {
         .on("enter", function (e) {
 
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         .addTo(controller);
         }
 
@@ -314,7 +314,7 @@ $(document).ready(function() {
             duration: "800%"
         })
         .setTween(tween2)
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
     /*------------------------------------------------*/
@@ -331,7 +331,7 @@ $(document).ready(function() {
         .on("enter", function (e) {
 
         })
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
           
