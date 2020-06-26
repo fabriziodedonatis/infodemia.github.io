@@ -320,11 +320,11 @@ $(document).ready(function() {
     /*------------------------------------------------*/
     // build scene grafico linechart twitter
     var scene = new ScrollMagic.Scene({
-            triggerElement: "#box_10",
+            triggerElement: "#box_10 ",
             triggerHook: 'onLeave',
             duration: "800%"
         })
-        .setPin("#box_10", {
+        .setPin("#box_10 ", {
             pushFollowers: true
         })
         .setTween(tween)
