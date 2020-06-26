@@ -446,7 +446,7 @@ line-height: 24px;
     height: auto        
 } 
  #sequenza_di_bolle_mobile img {
-    margin-top: 5%;
+    margin-top: 10%;
     width: 100%;
     position: relative;
     height: auto;
@@ -517,15 +517,29 @@ line-height: 24px;
     padding:3%;
     margin:auto;
     }
+    .crediti_logo {
+     position: relative;
+                width:75px;
+                
+                
+                }
+                
+    .crediti_logo img{
+                padding-top: 5px;
+                width: 70px;
+                float:left;
+                }
     
    .crediti_contenuto{
+                position: relative;
                 text-align: left;
                 margin:auto;
+                padding-left: 90px;
                 }
                 
    .crediti_contenuto p{
                font-family: 'Sole24Sans-Regular';
-               font-size: 1.1rem;
+               font-size: 1.2rem;
                }                   
                     
     /* Larger than mobile */

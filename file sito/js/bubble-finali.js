@@ -23,7 +23,7 @@ $(document).ready(function() {
                 .setPin("#box_bubble", {
                     pushFollowers: false
                 })
-                .addIndicators() // add indicators (requires plugin)
+               // .addIndicators() // add indicators (requires plugin)
                 .on("enter", function(e) {
                         i=0;
                 $(".bubbles .bubble").each(function() {
@@ -54,7 +54,7 @@ $(document).ready(function() {
                 
                 new ScrollMagic.Scene({ triggerElement: "#box_12",	duration: "80%", offset: "50",triggerHook: 0.5, })
 				.setPin("#box_12", {	pushFollowers: true})
-				.addIndicators() // add indicators (requires plugin)
+				//.addIndicators() // add indicators (requires plugin)
 				.on("enter", function(e) {
                 $(".bubble p").animate({opacity: 0.1 }, 100).fadeIn(1500);
                 $("#container_bubble").css("background-color", "#1e1e24");
