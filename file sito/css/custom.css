@@ -410,8 +410,7 @@ line-height: 24px;
 	}
  /*Nona Pagina*/
 #box_9 {  text-align: left;
-          height: 30vh;
-                 
+          height: 30vh;                
 }
 #box_9 h6{
  position: relative;
@@ -420,13 +419,10 @@ line-height: 24px;
 /*Decima Pagina*/
 
 #box_10 {  text-align: left;
-          height: 110vh;
+          height: 90vh;
                  
 }
-#box_10 h6{
- position: relative;
- font-weight: 600;
-}
+
 
 /*- GRAFICI TWITTER-------------------------------*/
 
@@ -553,8 +549,6 @@ line-height: 24px;
  }
  .variabili {font-size: 10px;}
  .fonte {font-size: 10px;}
- #box_10 #testo {display: none;}
- #box_10 {height: 80vh;}
 
  /*#box_10 {margin-top: 45%;}*/ 
 
@@ -565,7 +559,6 @@ line-height: 24px;
  #igienizzanti-mobile {display: none;}
  #grafico-twitter-mobile svg {display: none;}
  #sequenza_di_bolle_mobile img {display: none;}
- #box_9 {display: none;}
 }
 @media (max-width: 500px) {
  #ascolti-tv-desktop svg {display: none;}
