@@ -392,7 +392,7 @@ line-height: 24px;
         #igienizzanti-mobile #chart {
             width: 2240px;
             position: absolute;
-            left: -680px;  /* qui si anticipa il grafico orizziontale*/
+            left: -660px;  /* qui si anticipa il grafico orizziontale*/
         }
         #chart {
         height: 100%;
