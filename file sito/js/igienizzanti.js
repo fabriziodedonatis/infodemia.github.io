@@ -7,7 +7,7 @@ $(document).ready(function() {
             if (detector.mobile() != null) {
                 var tween = TweenMax.to("#igienizzanti-mobile #chart", 2.0, {
                     css: {
-                        left: -1200
+                        left: -1230
                     }
                 });
                  new ScrollMagic.Scene({
