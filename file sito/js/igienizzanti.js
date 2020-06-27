@@ -7,7 +7,7 @@ $(document).ready(function() {
             if (detector.mobile() != null) {
                 var tween = TweenMax.to("#igienizzanti-mobile #chart", 2.0, {
                     css: {
-                        left: -1270
+                        left: -1200
                     }
                 });
                  new ScrollMagic.Scene({
@@ -17,10 +17,10 @@ $(document).ready(function() {
                         duration: "100%"
                     })
                     .setPin("#box_7", {
-                        pushFollowers: false
+                        pushFollowers: true
                     })
                     .setTween(tween)
-                    //.addIndicators()
+                  //  .addIndicators()
                     .addTo(controller); 
             }
             else if (detector.mobile() == null){
@@ -59,7 +59,7 @@ $(document).ready(function() {
                 .on("enter", function(e) {
 
                 })
-                //.addIndicators() // add indicators (requires plugin)
+               // .addIndicators() // add indicators (requires plugin)
                 .addTo(controller);  
             }
         });

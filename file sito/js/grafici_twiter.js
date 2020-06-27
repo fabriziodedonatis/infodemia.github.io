@@ -149,7 +149,7 @@ $(document).ready(function() {
             duration: "800%"
         })
         .setTween(tween3)
-        //.addIndicators() // add indicators (requires plugin)
+        .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
     /*------------------------------------------------*/
     // build scene grafico linechart twitter
@@ -165,7 +165,7 @@ $(document).ready(function() {
         .on("enter", function (e) {
 
         })
-        //.addIndicators() // add indicators (requires plugin)
+        .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
         }
 
@@ -309,12 +309,16 @@ $(document).ready(function() {
     /*------------------------------------------------*/
     // build scene grafico bolle twitter
     var scene = new ScrollMagic.Scene({
-            triggerElement: "#box_10",
+            triggerElement: "#box_9",
             triggerHook: 'onLeave',
+            offset:"-30",
             duration: "800%"
         })
+    .setPin("#box_9 ", {
+            pushFollowers: false
+        })
         .setTween(tween2)
-        //.addIndicators() // add indicators (requires plugin)
+       // .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
     /*------------------------------------------------*/
@@ -322,6 +326,7 @@ $(document).ready(function() {
     var scene = new ScrollMagic.Scene({
             triggerElement: "#box_10 ",
             triggerHook: 'onLeave',
+            offset:"-245",
             duration: "800%"
         })
         .setPin("#box_10 ", {
@@ -331,7 +336,7 @@ $(document).ready(function() {
         .on("enter", function (e) {
 
         })
-        //.addIndicators() // add indicators (requires plugin)
+    //  .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
           
