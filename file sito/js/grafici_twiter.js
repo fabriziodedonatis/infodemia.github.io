@@ -318,7 +318,7 @@ $(document).ready(function() {
      //       pushFollowers: false
       //  })
         .setTween(tween2)
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
     /*------------------------------------------------*/
@@ -336,7 +336,7 @@ $(document).ready(function() {
         .on("enter", function (e) {
 
         })
-      .addIndicators() // add indicators (requires plugin)
+      //.addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
           

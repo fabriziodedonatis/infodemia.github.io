@@ -152,14 +152,22 @@ line-height: 24px;
       }
 .legenda {
   font-family:'Sole24Sans-Medium';
-  font-size:16px;
+  font-size:18px;
  }
  .variabili {
   opacity: 0.7;
   fill:#989898;
   font-family:'Sole24Sans-Regular';
-  font-size:12px;
+  font-size:18px;
  }
+ 
+ .variabili2 {
+  opacity: 0.7;
+  fill:#989898;
+  font-family:'Sole24Sans-Regular';
+  font-size:16px;
+ }
+ 
  .fonte {
   opacity: 0.7;
   fill:#989898;
@@ -560,8 +568,11 @@ line-height: 24px;
  #igienizzanti-mobile {display: none;}
  #grafico-twitter-mobile svg {display: none;}
  #sequenza_di_bolle_mobile img {display: none;}
- #box_10 {padding-top: 20vh;}
+ 
+ #box_10 {padding-top: 15vh;}
 }
+
+
 @media (max-width: 500px) {
  #ascolti-tv-desktop svg {display: none;}
  .panel7 {display: none;} /*nasconde igienizzanti desktop*/
