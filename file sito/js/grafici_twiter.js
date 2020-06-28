@@ -309,16 +309,16 @@ $(document).ready(function() {
     /*------------------------------------------------*/
     // build scene grafico bolle twitter
     var scene = new ScrollMagic.Scene({
-            triggerElement: "#box_9",
+            triggerElement: "#box_10",
             triggerHook: 'onLeave',
             offset:"-30",
             duration: "800%"
         })
-    .setPin("#box_9 ", {
-            pushFollowers: false
-        })
+    //.setPin("#box_10 ", {
+     //       pushFollowers: false
+      //  })
         .setTween(tween2)
-       // .addIndicators() // add indicators (requires plugin)
+        .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
     /*------------------------------------------------*/
@@ -326,7 +326,7 @@ $(document).ready(function() {
     var scene = new ScrollMagic.Scene({
             triggerElement: "#box_10 ",
             triggerHook: 'onLeave',
-            offset:"-245",
+            offset:"0",
             duration: "800%"
         })
         .setPin("#box_10 ", {
@@ -336,7 +336,7 @@ $(document).ready(function() {
         .on("enter", function (e) {
 
         })
-    //  .addIndicators() // add indicators (requires plugin)
+      .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 
           
