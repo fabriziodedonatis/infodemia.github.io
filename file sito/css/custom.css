@@ -160,7 +160,22 @@ line-height: 24px;
   font-family:'Sole24Sans-Regular';
   font-size:18px;
  }
- 
+ .legenda-ascolti-desktop {
+  font-family:'Sole24Sans-Medium';
+  font-size:18px;
+ }
+ .variabili-ascolti-desktop {
+   opacity: 0.7;
+  fill:#989898;
+  font-family:'Sole24Sans-Regular';
+  font-size:15px;
+ }
+  .fonte-ascolti-desktop {
+  opacity: 0.7;
+  fill:#989898;
+  font-family:'Sole24Sans-Regular';
+  font-size:13px;
+ }
  .variabili2 {
   opacity: 0.7;
   fill:#989898;
@@ -446,13 +461,13 @@ line-height: 24px;
     height: auto        
 }
  #sequenza_di_bolle_desktop img {
-    /*margin-top: 10%;*/
+    margin-top: 10%;
     width: 100%;
     position: relative;
     height: auto        
 } 
  #sequenza_di_bolle_mobile img {
-    /*margin-top: 10%;*/
+    margin-top: 10%;
     width: 100%;
     position: relative;
     height: auto;
