@@ -405,6 +405,22 @@ line-height: 24px;
             margin: 0;
             padding: 0;
 				}
+ .legenda-igienizzanti-desktop {
+  font-family:'Sole24Sans-Medium';
+  font-size:18px;
+ }
+ .variabili-igienizzanti-desktop {
+   opacity: 0.7;
+  fill:#989898;
+  font-family:'Sole24Sans-Regular';
+  font-size:15px;
+ }
+  .fonte-igienizzanti-desktop {
+  opacity: 0.7;
+  fill:#989898;
+  font-family:'Sole24Sans-Regular';
+  font-size:13px;
+ }
  #igienizzanti-mobile {
             height: 75vh;
             border: 0.1px solid #ECF1F4;
