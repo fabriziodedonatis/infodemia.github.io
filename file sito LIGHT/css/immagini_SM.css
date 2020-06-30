@@ -1,0 +1,93 @@
+  
+
+#trf_mascherine {
+		
+		opacity: 0;
+		background-color: #ECF1F4;
+		-webkit-transform: scale(0.9);
+			 -moz-transform: scale(0.9);
+				-ms-transform: scale(0.9);
+				 -o-transform: scale(0.9);
+						transform: scale(0.9);
+		-webkit-transition: all 0.8s ease-in-out;
+			 -moz-transition: all 0.8s ease-in-out;
+				-ms-transition: all 0.8s ease-in-out;
+				 -o-transition: all 0.8s ease-in-out;
+						transition: all 0.8s ease-in-out;
+	}
+	#trf_mascherine.visible {
+		
+		opacity: 1;
+		
+		background-color: #ECF1F4;
+		
+		-webkit-transform: none;
+			 -moz-transform: none;
+				-ms-transform: none;
+				 -o-transform: none;
+						transform: none;
+	}
+	
+	#trf_treni {
+		
+		opacity: 0;
+		background-color: #ECF1F4;
+		-webkit-transform: scale(0.9);
+			 -moz-transform: scale(0.9);
+				-ms-transform: scale(0.9);
+				 -o-transform: scale(0.9);
+						transform: scale(0.9);
+		-webkit-transition: all 0.8s ease-in-out;
+			 -moz-transition: all 0.8s ease-in-out;
+				-ms-transition: all 0.8s ease-in-out;
+				 -o-transition: all 0.8s ease-in-out;
+						transition: all 0.8s ease-in-out;
+	}
+	#trf_treni.visible {
+		
+		opacity: 1;
+		
+		background-color: #ECF1F4;
+		
+		-webkit-transform: none;
+			 -moz-transform: none;
+				-ms-transform: none;
+				 -o-transform: none;
+						transform: none;
+	}
+	
+	#trf_supermercati {
+		
+		opacity: 0;
+		background-color: #ECF1F4;
+		-webkit-transform: scale(0.9);
+			 -moz-transform: scale(0.9);
+				-ms-transform: scale(0.9);
+				 -o-transform: scale(0.9);
+						transform: scale(0.9);
+		-webkit-transition: all 0.8s ease-in-out;
+			 -moz-transition: all 0.8s ease-in-out;
+				-ms-transition: all 0.8s ease-in-out;
+				 -o-transition: all 0.8s ease-in-out;
+						transition: all 0.8s ease-in-out;
+	}
+	#trf_supermercati.visible {
+		
+		opacity: 1;
+		
+		background-color: #ECF1F4;
+		
+		-webkit-transform: none;
+			 -moz-transform: none;
+				-ms-transform: none;
+				 -o-transform: none;
+						transform: none;
+	}
+	
+	#cerchio, #cerchio2,#cerchio3,#cerchio4 {	position: absolute;
+				
+	}
+	
+	.cerchiombra { opacity:0.05;
+					}
+	
