@@ -13,7 +13,7 @@ $(document).ready(function() {
                  new ScrollMagic.Scene({
                         triggerElement: "#box_7",
                         triggerHook: "onLeave",
-                        offset: "0",
+                        offset: "-65",
                         duration: "100%"
                     })
                     .setPin("#box_7", {
@@ -50,6 +50,7 @@ $(document).ready(function() {
             new ScrollMagic.Scene({
                     triggerElement: "#box_7",
                     triggerHook: 'onLeave',
+                    offset: "-65",
                     duration: "100%"
                 })
                 .setPin("#box_7", {

@@ -14,7 +14,7 @@ $(document).ready(function() { // wait for document ready
 		
 			var scenauno = new ScrollMagic.Scene({
 					triggerElement: "#contenitore_grafico",
-					offset: "-30",
+					offset: "-67",
 					triggerHook: 'onLeave',
 					duration: "3150%"
 				})
